@@ -12,6 +12,13 @@
       "description": "Audit & rewrite content to remove AI writing patterns (\"AI-isms\"). Supports detect-only and edit-in-place modes, voice profiles, and iterate-to-convergence.",
       "category": "productivity",
       "keywords": ["writing", "editing", "ai-detection", "humanize"]
+    },
+    {
+      "name": "subtitle-translator",
+      "source": "./plugins/subtitle-translator",
+      "description": "Translate subtitle files (SRT, ASS, SSA, VTT, SUB, SBV) with a glossary-based, multi-phase workflow using Claude Code as orchestrator and Codex CLI as translation engine.",
+      "category": "productivity",
+      "keywords": ["subtitles", "translation", "srt", "vtt", "localization"]
     }
   ]
 }
